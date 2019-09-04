@@ -4,8 +4,19 @@
 <title>Door County Wildflowers</title>
 <meta charset="utf-8">
 <style>
+    
 header, nav, main, footer, aside { display: block; }
+    
 * { box-sizing: border-box;}
+    header, h1, #wrapper{ margin-top: 0; }
+#wrapper {  background-color: #F4E8BC; 
+	        width: 90%;
+			margin: auto;
+            color: #330000;
+            display: grid;
+            grid-template-columns: 160px 1fr 160px;
+            grid-template-rows: 200px auto 100px;
+    }
 body { margin:0;
        background-color: #FFFFFF; }
 #container { background-color: #EEEEEE;
@@ -34,7 +45,9 @@ footer { font-size: .70em;
          color: #006600;
          background-color: #FFFFFF;
          padding-top: 10px;
-         clear: both; }		 
+         clear: both;
+        grid-row: 3/;
+         grid-column: 1/4;}		 
 h1 { margin-top: 0;
      font-size: 3em;
      text-align: left;
